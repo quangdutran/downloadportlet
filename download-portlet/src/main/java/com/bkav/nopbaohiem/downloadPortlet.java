@@ -27,6 +27,9 @@ import com.liferay.portal.kernel.util.WebKeys;
 	property = {
 		"com.liferay.portlet.display-category=category.sample",
 		"com.liferay.portlet.instanceable=true",
+		"com.liferay.portlet.header-portlet-css=/css/download.css",
+		"com.liferay.portlet.header-portlet-javascript=/js/jquery-1.12.3.js",
+		"com.liferay.portlet.footer-portlet-javascript=/js/download.js",
 		"javax.portlet.display-name=download-portlet Portlet",
 		"javax.portlet.security-role-ref=power-user,user",
 		"javax.portlet.init-param.template-path=/",
